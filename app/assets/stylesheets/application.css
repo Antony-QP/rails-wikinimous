@@ -27,6 +27,11 @@
      padding: 20px 50px;
  }
 
+ .text-container{
+     width: 500px;
+     margin: 0 auto;
+ }
+
  .form-container{
      width: 50%;
      height: 70vh;
@@ -45,4 +50,23 @@
  .input-text-field{
      height: 200px;
      margin-bottom: 20px;
+ }
+
+ .title{
+     text-decoration: none;
+     font-size: 30px;
+     color: #327ab7;
+ }
+
+ .nav-title{
+     color:  #777777;
+ }
+ 
+ a{
+     text-decoration: none;
+ }
+
+ .navbar{
+     background-color: #f8f8f8;
+     padding: 5px 15px;
  }

@@ -1,7 +1,9 @@
 <div class="container">
-    <% @articles.each do |article|%> 
-    <%= link_to "#{article.title}" , article_path(article), class: "title" %>
-    <p><%= article.content %></p>
-    <% end %>
+    <div class="text-container">
+        <% @articles.each do |article|%> 
+        <%= link_to "#{article.title}" , article_path(article), class: "title" %>
+        <p><%= article.content %></p>
+        <% end %>
+    </div>
 </div>
 
